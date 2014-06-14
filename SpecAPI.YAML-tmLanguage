@@ -1,0 +1,39 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: SpecAPI
+scopeName: source.specapi
+fileTypes: [specapi]
+uuid: fe2695a1-dbb4-4186-95e2-14aa4f38e8b7
+
+patterns:
+- comment: Comment Blocks
+  name: comment.block.documentation.specapi
+  begin: \/\*
+  end: \*\/
+  patterns:
+  - comment: Comment Tags
+    name: comment.block.documentation.specapi
+    match: \@[\w]+
+- comment: Strings
+  name: string.quoted.double.specapi
+  begin: \"
+  end: \"
+  patterns:
+  - name: string.other.specapi
+  - match: \\.
+- comment: Keyword
+  name: keyword.operator.specapi
+  match: (api|get|put|post|delete|package|params|response|body|entity|enum)
+- comment: Keyword
+  name: storage.type.specapi
+  match: (string|int|long|boolean|double|float)
+- comment: Url
+  name: constant.other.specapi
+  match: http(s)?\:\/\/[^\{]+
+- comment: Path
+  name: constant.other.specapi
+  match: \/[^\{]+
+- comment: Identifier
+  name: variable.other.specapi
+  match: \w+(\.\w+)?
+...
