@@ -1,0 +1,5 @@
+{
+	"cmd": ["specapi", "$file_base_name.specapi"],
+	"path":"$PATH:/usr/local/bin",
+	"selector":"source.specapi"
+}
