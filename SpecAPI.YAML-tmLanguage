@@ -12,7 +12,7 @@ patterns:
   end: \*\/
   patterns:
   - comment: Comment Tags
-    name: comment.block.documentation.specapi
+    name: entity.name.tag.specapi
     match: \@[\w]+
 - comment: Strings
   name: string.quoted.double.specapi
@@ -34,6 +34,6 @@ patterns:
   name: constant.other.specapi
   match: \/[^\{]+
 - comment: Identifier
-  name: variable.other.specapi
+  name: entity.name.function.specapi
   match: \w+(\.\w+)?
 ...

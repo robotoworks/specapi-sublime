@@ -27,7 +27,7 @@
 					<key>match</key>
 					<string>\@[\w]+</string>
 					<key>name</key>
-					<string>comment.block.documentation.specapi</string>
+					<string>entity.name.tag.specapi</string>
 				</dict>
 			</array>
 		</dict>
@@ -74,7 +74,7 @@
 			<key>match</key>
 			<string>http(s)?\:\/\/[^\{]+</string>
 			<key>name</key>
-			<string>constant.other.specapi</string>
+			<string>entity.other.attribute-name.specapi</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -90,7 +90,7 @@
 			<key>match</key>
 			<string>\w+(\.\w+)?</string>
 			<key>name</key>
-			<string>variable.other.specapi</string>
+			<string>entity.name.function.specapi</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
