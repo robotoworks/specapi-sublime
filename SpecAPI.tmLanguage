@@ -56,7 +56,7 @@
 			<key>comment</key>
 			<string>Keyword</string>
 			<key>match</key>
-			<string>(api|get|put|post|delete|package|params|response|body|entity|enum)</string>
+			<string>(api|get|put|post|delete|package|params|response|request|entity|enum)\s</string>
 			<key>name</key>
 			<string>keyword.operator.specapi</string>
 		</dict>
@@ -74,7 +74,7 @@
 			<key>match</key>
 			<string>http(s)?\:\/\/[^\{]+</string>
 			<key>name</key>
-			<string>entity.other.attribute-name.specapi</string>
+			<string>constant.other.specapi</string>
 		</dict>
 		<dict>
 			<key>comment</key>

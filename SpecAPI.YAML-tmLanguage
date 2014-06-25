@@ -23,7 +23,7 @@ patterns:
   - match: \\.
 - comment: Keyword
   name: keyword.operator.specapi
-  match: (api|get|put|post|delete|package|params|response|body|entity|enum)
+  match: (api|get|put|post|delete|package|params|response|request|entity|enum)\s
 - comment: Keyword
   name: storage.type.specapi
   match: (string|int|long|boolean|double|float)
